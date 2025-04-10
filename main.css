@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head #navbar1 ul{
+   list-style: none;
+}
+
+.head #navbar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(208, 204, 204);
+    font-size: small;
+}
+
+.head #navbar1 ul{
+    display: flex;
+    gap: 20px;
+}
+
+.head #navbar2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+}
+
+.head #navbar2 ul{
+    display: flex;
+    gap: 30px;
+}
+.head #navbar2 ul p{
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 5px 18px 5px 18px;
+}
+
+.head #navbar2 ul p input{
+    border: none;
+}
+
+.head #navbar3 ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-top: 1px solid rgb(230, 228, 228);
+    font-size: large;
+}
