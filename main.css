@@ -62,8 +62,20 @@ main .slider2 ul{
     display: flex;
 }
 
+main .slider2 p{
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+}
+
 main .slider3 ul{
     display: flex;
+}
+
+main .slider3 p{
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
 }
 
 main .slider4 ul{
@@ -79,6 +91,12 @@ main .slider6 ul{
     display: flex;
 }
 
+main .slider6 p{
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+}
+
 main .slider7 ul{
     display: flex;
 }
@@ -86,4 +104,36 @@ main .slider7 ul{
 main .slider8 ul{
     display: flex;
     justify-content: center;
+}
+
+main .discount2 ul li{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 80px 30px 30px 30px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+
+.foot .footer2 ul li{
+    padding: 10px;
+}
+
+.foot .footer3 ul li{
+    padding: 10px;
+}
+
+.foot .footer4 ul li{
+    padding: 10px;
+}
+
+.foot .footer5 ul li{
+    padding: 10px;
 }
