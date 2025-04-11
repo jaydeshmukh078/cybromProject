@@ -4,15 +4,11 @@
     box-sizing: border-box;
 }
 
-.head #navbar1 ul{
-   list-style: none;
-}
-
 .head #navbar1{
     display: flex;
     justify-content: space-between;
     padding: 5px 30px 5px 30px;
-    background-color: rgb(208, 204, 204);
+    background-color: rgb(199, 199, 199);
     font-size: small;
 }
 
@@ -24,27 +20,70 @@
 .head #navbar2{
     display: flex;
     justify-content: space-around;
-    padding: 20px 0px 20px 0px;
+    align-items: center;
+    padding: 20px 0px 15px 0px;
 }
 
 .head #navbar2 ul{
     display: flex;
     gap: 30px;
 }
+
 .head #navbar2 ul p{
-   border: 1px solid black;
    border-radius: 5px;
-   padding: 5px 18px 5px 18px;
+   padding: 5px 10px 5px 5px;
+   background-color: rgb(222, 218, 218);
+}
+
+.head #navbar2 ul p i{
+   padding: 3px 10px 3px 3px;
 }
 
 .head #navbar2 ul p input{
     border: none;
+    outline: none;
+    background-color: rgb(222, 218, 218);
 }
 
 .head #navbar3 ul{
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    border-top: 1px solid rgb(230, 228, 228);
+    border-top: 1px solid rgb(199, 199, 199);
     font-size: large;
+}
+
+main .slider ul{
+    display: flex;
+}
+
+
+main .slider2 ul{
+    display: flex;
+}
+
+main .slider3 ul{
+    display: flex;
+}
+
+main .slider4 ul{
+    display: flex;
+}
+
+main .slider5 ul{
+    display: flex;
+    justify-content: center;
+}
+
+main .slider6 ul{
+    display: flex;
+}
+
+main .slider7 ul{
+    display: flex;
+}
+
+main .slider8 ul{
+    display: flex;
+    justify-content: center;
 }
