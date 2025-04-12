@@ -111,7 +111,7 @@ main .discount2 ul li{
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     color: white;
     padding: 80px 30px 30px 30px;
 }
@@ -123,17 +123,36 @@ footer{
 }
 
 .foot .footer2 ul li{
-    padding: 10px;
+    padding: 7px;
 }
 
 .foot .footer3 ul li{
-    padding: 10px;
+    padding: 7px;
 }
 
 .foot .footer4 ul li{
-    padding: 10px;
+    padding: 7px;
+}
+
+.foot .footer4 ul li i{
+    padding: 0px 8px 0px 8px;
 }
 
 .foot .footer5 ul li{
+    padding: 7px;
+
+}
+
+.foot .footer5 ul .email input{
+    border: none;
+    outline: none;
+    background-color: black;
     padding: 10px;
+    border-bottom: 1px solid rgb(253, 216, 53);
+}
+
+.foot .footer5 ul .email button{
+    background-color: rgb(253, 216, 53);
+    padding: 10px 15px 10px 15px;
+    border: none;
 }
