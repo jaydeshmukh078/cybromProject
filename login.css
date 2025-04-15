@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav #navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 15px 0px;
+    border-bottom: 1px solid gray;
+}
+
+header nav #navbar ul{
+    display: flex;
+    gap: 30px;
+}
+
+header nav #navbar ul li a{
+   text-decoration: none;
+   color: black;
+}
+
+header nav #navbar ul p{
+   border-radius: 5px;
+   padding: 5px 10px 5px 5px;
+   background-color: rgb(222, 218, 218);
+}
+
+header nav #navbar ul p i{
+   padding: 3px 10px 3px 3px;
+}
+
+header nav #navbar ul p input{
+    border: none;
+    outline: none;
+    background-color: rgb(222, 218, 218);
+}

@@ -23,6 +23,11 @@
     gap: 20px;
 }
 
+.head #navbar1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
 .head #navbar2{
     display: flex;
     justify-content: space-around;
@@ -33,6 +38,11 @@
 .head #navbar2 ul{
     display: flex;
     gap: 30px;
+}
+
+.head #navbar2 ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 .head #navbar2 ul p{
@@ -57,6 +67,11 @@
     padding: 15px;
     border-top: 1px solid rgb(199, 199, 199);
     font-size: large;
+}
+
+.head #navbar3 ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 .main{
