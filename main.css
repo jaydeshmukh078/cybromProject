@@ -79,12 +79,20 @@
 }
 
 main .slider ul{
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(10,550px);
+    overflow-x: scroll;
+    scrollbar-width: none;
 }
 
 
 main .slider2 ul{
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(9,400px);
+    overflow-x: scroll;
+    scrollbar-width: none;
 }
 
 main .slider2 p{
