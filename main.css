@@ -157,15 +157,15 @@ footer{
 }
 
 .foot .footer2 ul li{
-    padding: 7px;
+    padding: 5px;
 }
 
 .foot .footer3 ul li{
-    padding: 7px;
+    padding: 5px;
 }
 
 .foot .footer4 ul li{
-    padding: 7px;
+    padding: 5px;
 }
 
 .foot .footer4 ul li i{
@@ -173,7 +173,7 @@ footer{
 }
 
 .foot .footer5 ul li{
-    padding: 7px;
+    padding: 5px;
 
 }
 
@@ -189,4 +189,21 @@ footer{
     background-color: rgb(253, 216, 53);
     padding: 10px 15px 10px 15px;
     border: none;
+}
+
+.foot2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot2 .footer6 ul li{
+    padding: 5px;
+}
+
+.foot2 .footer7 ul li{
+    padding: 5px;
+}
+
+.foot2 .footer7 ul li img{
+    padding: 5px;
 }
