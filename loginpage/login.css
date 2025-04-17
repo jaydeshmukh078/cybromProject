@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header nav #navbar{
@@ -52,16 +53,69 @@ header nav #navbar ul p input{
     padding: 50px 0px 0px 0px;
 }
 
-.mainpage .formm h3{
+.mainpage .formm #h3{
     padding: 0px 0px 50px 0px;
 
 }
 
-.mainpage .formm p{
-    padding: 20px;
+.mainpage .formm #numm{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px;
     gap: 10px;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 9px;
+}
+
+.mainpage .formm .btn{
+   margin: 30px 0px 50px 0px;
+   padding: 10px 50px 10px 50px;
+   width: 100%;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(253, 216, 53);
+   font-size: 15px;
 }
 
 .mainpage .formm p img{
     width: 18px;
+}
+
+.mainpage .formm p .inn{
+    /* width: 18px; */
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.mainpage .formm .foot a{
+   text-decoration: none;
+}
+
+.mainpage .formm .foot{
+    margin: 25px;
+    text-align: center;
+}
+
+.mainpage .formm .orr{
+    display: grid;
+    text-align: center;
+    margin-top: -15px;
+    /* background-color: white; */
+}
+
+.mainpage .formm .buttonn button{
+   width: 40%;
+   padding: 10px 50px 10px 50px;
+   margin: 30px 25px 50px 25px;
+   border-radius: 10px;
+   /* border: none; */
+   background-color: rgb(255, 255, 255);
+   font-size: 15px;
+}
+
+.mainpage .formm .buttonn button a{
+    text-decoration: none;
+    color: black;
 }
