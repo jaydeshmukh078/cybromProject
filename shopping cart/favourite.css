@@ -18,6 +18,14 @@ header nav #navbar2 ul{
     gap: 30px;
 }
 
+header nav #navbar2 ul li{
+    transition: all 0.5s ease;
+ }
+ 
+header nav #navbar2 ul li:hover{
+    transform: scale(1.1);
+ }
+
 header nav #navbar2 ul li a{
     text-decoration: none;
     color: black;
@@ -56,6 +64,7 @@ main section button{
     border: none;
     background-color: rgb(253, 216, 53);
     font-size: 15px;
+    box-shadow: 5px 5px 5px 0px gray;
  }
 
 main section button a{

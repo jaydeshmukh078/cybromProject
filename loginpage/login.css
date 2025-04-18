@@ -39,6 +39,14 @@ header nav #navbar ul p input{
     background-color: rgb(222, 218, 218);
 }
 
+header nav #navbar ul li{
+    transition: all 0.5s ease;
+ }
+ 
+header nav #navbar ul li:hover{
+    transform: scale(1.1);
+ }
+
 .mainpage{
     display: flex;
     justify-content: space-between;
@@ -76,6 +84,12 @@ header nav #navbar ul p input{
    border: none;
    background-color: rgb(253, 216, 53);
    font-size: 15px;
+   box-shadow: 5px 5px 5px 0px gray;
+}
+
+.mainpage .formm .btn a{
+  text-decoration: none;
+  color: black;
 }
 
 .mainpage .formm p img{
@@ -113,6 +127,7 @@ header nav #navbar ul p input{
    /* border: none; */
    background-color: rgb(255, 255, 255);
    font-size: 15px;
+   box-shadow: 5px 5px 5px 0px gray;
 }
 
 .mainpage .formm .buttonn button a{
