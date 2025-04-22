@@ -100,7 +100,7 @@
 }
 
 .main{
-    padding-top: 140px;
+    padding-top: 140px; 
 }
 
 main .slider ul{
@@ -111,14 +111,17 @@ main .slider ul{
     scrollbar-width: none;
 }
 
-.main .slider ul li{
-    transition: all 1s ease;
- }
- 
- .main .slider ul li:hover{
-    transform: scale(1.1);
- }
+.main .slider ul li {
+    overflow: hidden;
+}
 
+.main .slider ul li a img{
+    transition: all 1s ease;
+}
+ 
+.main .slider ul li a img:hover{
+    width: 570px;
+}
 
 main .slider2 ul{
     /* display: flex; */
