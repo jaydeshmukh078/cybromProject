@@ -1,112 +1,140 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.head{
+.head {
     position: fixed;
     width: 100%;
     background-color: white;
 }
 
-.head #navbar1{
+.head .nav2
+/* ,.head .nav2 section ul input */
+{
+    display: none;
+}
+
+.head .nav2 section {
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+    background-color: rgb(253, 216, 53);
+}
+
+.head .nav2 section ul {
+    display: flex;
+    gap: 20px;
+}
+
+.head .nav2 section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.head #navbar1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 5px 30px 5px 30px;
     background-color: rgb(199, 199, 199);
     font-size: small;
 }
 
-.head #navbar1 ul{
+.head #navbar1 ul {
     display: flex;
     gap: 20px;
 }
 
-.head #navbar1 ul li a{
+.head #navbar1 ul li a {
     text-decoration: none;
     color: black;
 }
 
-.head #navbar1 ul li{
+.head #navbar1 ul li {
     transition: all 0.5s ease;
- }
- 
- .head #navbar1 ul li:hover{
-    transform: scale(1.2);
- }
+}
 
-.head #navbar2{
+.head #navbar1 ul li:hover {
+    transform: scale(1.2);
+}
+
+.head #navbar2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px 0px 15px 0px;
 }
 
-.head #navbar2 ul{
+.head #navbar2 ul {
     display: flex;
     gap: 30px;
 }
 
-.head #navbar2 ul li a{
+.head #navbar2 ul li a {
     text-decoration: none;
     color: black;
 }
 
-.head #navbar2 ul p{
-   border-radius: 5px;
-   padding: 5px 10px 5px 5px;
-   background-color: rgb(222, 218, 218);
+.head #navbar2 ul p {
+    border-radius: 5px;
+    padding: 5px 10px 5px 5px;
+    background-color: rgb(222, 218, 218);
 }
 
-.head #navbar2 ul p i{
-   padding: 3px 10px 3px 3px;
+.head #navbar2 ul p i {
+    padding: 3px 10px 3px 3px;
 }
 
-.head #navbar2 ul p input{
+.head #navbar2 ul p input {
     border: none;
     outline: none;
     background-color: rgb(222, 218, 218);
 }
 
-.head #navbar2 ul li{
+.head #navbar2 ul li {
     transition: all 0.5s ease;
- }
- 
- .head #navbar2 ul li:hover{
-    transform: scale(1.2);
- }
+}
 
-.head #navbar3 ul{
+.head #navbar2 ul li:hover {
+    transform: scale(1.2);
+}
+
+.head #navbar3 ul {
     display: flex;
     justify-content: space-between;
     padding: 15px;
     border-top: 1px solid rgb(199, 199, 199);
     font-size: large;
+    flex-wrap: wrap;
 }
 
-.head #navbar3 ul li{
-   transition: all 0.5s ease;
+.head #navbar3 ul li {
+    transition: all 0.5s ease;
 }
 
-.head #navbar3 ul li:hover{
-   transform: scale(1.1);
+.head #navbar3 ul li:hover {
+    transform: scale(1.1);
 }
 
-.head #navbar3 ul li a{
+.head #navbar3 ul li a {
     text-decoration: none;
     color: black;
 }
 
-.main{
-    padding-top: 140px; 
+.main {
+    padding-top: 140px;
 }
 
-main .slider ul{
+main .slider ul {
     /* display: flex; */
     display: grid;
-    grid-template-columns: repeat(10,550px);
+    grid-template-columns: repeat(10, 550px);
     overflow-x: scroll;
     scrollbar-width: none;
 }
@@ -115,160 +143,125 @@ main .slider ul{
     overflow: hidden;
 }
 
-.main .slider ul li a img{
+.main .slider ul li a img {
     transition: all 1s ease;
 }
- 
-.main .slider ul li a img:hover{
+
+.main .slider ul li a img:hover {
     width: 570px;
 }
 
-main .slider2 ul{
+main .slider2 ul {
     /* display: flex; */
     display: grid;
-    grid-template-columns: repeat(9,400px);
+    grid-template-columns: repeat(9, 400px);
     overflow-x: scroll;
     scrollbar-width: none;
 }
 
-main .slider2 p{
+main .slider2 p {
     font-size: xx-large;
     text-align: center;
     padding: 20px;
 }
 
-.main .slider2 ul li{
-    transition: all 1s ease;
- }
- 
- .main .slider2 ul li:hover{
-    transform: scale(0.9);
- }
-
-main .slider3 ul{
-    display: flex;
+.main .slider2 ul li {
+    overflow: hidden;
 }
 
-main .slider3 p{
+.main .slider2 ul li a img {
+    transition: all 1s ease;
+}
+
+.main .slider2 ul li a img:hover {
+    width: 380px;
+}
+
+main .slider3 ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .slider3 p {
     font-size: xx-large;
     text-align: center;
     padding: 20px;
 }
 
-.main .slider3 ul li{
-    transition: all 1s ease;
- }
- 
- .main .slider3 ul li:hover{
-    transform: scale(0.9);
- }
-
-main .slider4 ul{
+main .slider4 ul {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.main .slider4 ul li{
-    transition: all 1s ease;
- }
- 
- .main .slider4 ul li:hover{
-    transform: scale(0.9);
- }
-
-main .slider5 ul{
+main .slider5 ul {
     display: flex;
     justify-content: center;
 }
 
-.main .slider5 ul li{
-    transition: all 1s ease;
- }
- 
- .main .slider5 ul li:hover{
-    transform: scale(0.9);
- }
-
-main .slider6 ul{
+main .slider6 ul {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.main .slider6 ul li{
-    transition: all 1s ease;
- }
- 
- .main .slider6 ul li:hover{
-    transform: scale(0.9);
- }
-
-main .slider6 p{
+main .slider6 p {
     font-size: xx-large;
     text-align: center;
     padding: 20px;
 }
 
-main .slider7 ul{
-    display: flex;
-}
-
-.main .slider7 ul li{
-    transition: all 1s ease;
- }
- 
- .main .slider7 ul li:hover{
-    transform: scale(0.9);
- }
-
-main .slider8 ul{
+main .slider7 ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.main .slider8 ul li{
-    transition: all 1s ease;
- }
- 
- .main .slider8 ul li:hover{
-    transform: scale(0.9);
- }
+main .slider8 ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-main .discount2 ul li{
+main .discount2 ul li {
     text-align: center;
 }
 
-footer{
+footer {
     background-color: rgb(24, 23, 23);
     color: white;
     padding: 80px 30px 30px 30px;
 }
 
-.foot{
+.foot {
     display: flex;
     justify-content: space-between;
     padding: 20px 0px 20px 0px;
 }
 
-.foot .footer2 ul li{
+.foot .footer2 ul li {
     padding: 5px;
 }
 
-.foot .footer3 ul li{
+.foot .footer3 ul li {
     padding: 5px;
 }
 
-.foot .footer4 ul li{
+.foot .footer4 ul li {
     padding: 5px;
 }
 
-.foot .footer4 ul li i{
+.foot .footer4 ul li i {
     padding: 0px 8px 0px 8px;
 }
 
-.foot .footer5 ul li{
+.foot .footer5 ul li {
     padding: 5px;
 
 }
 
-.foot .footer5 ul .email input{
+.foot .footer5 ul .email input {
     border: none;
     outline: none;
     background-color: black;
@@ -276,29 +269,47 @@ footer{
     border-bottom: 1px solid rgb(253, 216, 53);
 }
 
-.foot .footer5 ul .email button{
+.foot .footer5 ul .email button {
     background-color: rgb(253, 216, 53);
     padding: 10px 15px 10px 15px;
     border: none;
 }
 
-.foot2{
+.foot2 {
     display: flex;
     justify-content: space-between;
 }
 
-.foot2 .footer6 ul li{
+.foot2 .footer6 ul li {
     padding: 5px;
 }
 
-.foot2 .footer7 ul li{
+.foot2 .footer7 ul li {
     padding: 5px;
 }
 
-.foot2 .footer7 ul li img{
+.foot2 .footer7 ul li img {
     padding: 5px;
 }
 
-.foot2 .footer8 ul li{
+.foot2 .footer8 ul li {
     padding: 5px;
+}
+
+@media only screen and (max-width: 1060px) {
+    .head .nav {
+        display: none;
+    }
+
+    .head .nav2 {
+        display: block;
+    }
+
+    .main {
+        padding-top: 60px;
+    }
+
+    #bar:checked~.head .nav{
+        display: block;
+    }
 }
