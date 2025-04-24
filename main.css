@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scrollbar-width: none;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -13,17 +14,34 @@
 
 .head .nav2
 /* ,.head .nav2 section ul input */
-{
+    {
     display: none;
+}
+
+#menu{
+    display: none;
+}
+
+#menu{
+    position: absolute;
+    position: fixed;
+    font-size: large;
+    z-index: 99;
+    padding: 15px 10px 10px 15px;
 }
 
 .head .nav2 section {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 20px;
+    padding: 10px 50px;
     font-size: large;
     background-color: rgb(253, 216, 53);
+    width: 100%;
+}
+
+.head .nav2 .nav3{
+    display: none;
 }
 
 .head .nav2 section ul {
@@ -139,18 +157,6 @@ main .slider ul {
     scrollbar-width: none;
 }
 
-.main .slider ul li {
-    overflow: hidden;
-}
-
-.main .slider ul li a img {
-    transition: all 1s ease;
-}
-
-.main .slider ul li a img:hover {
-    width: 570px;
-}
-
 main .slider2 ul {
     /* display: flex; */
     display: grid;
@@ -163,18 +169,6 @@ main .slider2 p {
     font-size: xx-large;
     text-align: center;
     padding: 20px;
-}
-
-.main .slider2 ul li {
-    overflow: hidden;
-}
-
-.main .slider2 ul li a img {
-    transition: all 1s ease;
-}
-
-.main .slider2 ul li a img:hover {
-    width: 380px;
 }
 
 main .slider3 ul {
@@ -198,6 +192,7 @@ main .slider4 ul {
 main .slider5 ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 main .slider6 ul {
@@ -296,7 +291,7 @@ footer {
     padding: 5px;
 }
 
-@media only screen and (max-width: 1060px) {
+@media(max-width: 1060px) {
     .head .nav {
         display: none;
     }
@@ -309,7 +304,71 @@ footer {
         padding-top: 60px;
     }
 
-    #bar:checked~.head .nav{
+    footer .footer5{
+        display: none;
+    }
+
+    .head .nav2 #navbar2{
+        display: none;
+    }
+
+    #menu{
         display: block;
+        
+    }
+    
+    #bar:checked~.head .nav2 .nav3{
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #bar:checked~.head .nav2 .nav3 ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+ 
+    #bar:checked~.head .nav2 .nav3 ul li{
+        border-top: 1px solid rgb(0, 0, 0);
+        padding: 10px;
     }
 }
+
+@media(max-width: 400px) {
+    footer .foot{
+       display: flex;
+       flex-direction: column;
+       padding: 30px 0px;
+    }
+
+    footer .foot .footer2{
+       padding: 20px 0px;
+    }
+    footer .foot .footer3{
+       padding: 20px 0px;
+    }
+    footer .foot .footer4{
+       padding: 20px 0px;
+    }
+    footer .foot .footer5{
+       padding: 20px 0px;
+    }
+
+    footer .foot2{
+       display: flex;
+       flex-direction: column;
+       padding: 0px 0px 30px 0px;
+    }
+
+    footer .foot2 .footer6{
+        padding: 20px 0px;
+     }
+    footer .foot2 .footer7{
+        padding: 20px 0px;
+     }
+    footer .foot2 .footer8{
+        padding: 20px 0px;
+     }
+} 
