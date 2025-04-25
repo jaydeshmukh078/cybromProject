@@ -5,6 +5,48 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.head .nav2
+/* ,.head .nav2 section ul input */
+    {
+    display: none;
+}
+
+.head .nav2 section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: large;
+    background-color: rgb(253, 216, 53);
+    width: 100%;
+}
+
+.head .nav2 .nav3{
+    display: none;
+}
+
+.head .nav2 section ul {
+    display: flex;
+    gap: 20px;
+}
+
+.head .nav2 section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu{
+    display: none;
+}
+
+#menu{
+    position: absolute;
+    position: fixed;
+    font-size: large;
+    z-index: 99;
+    padding: 15px 10px 10px 15px;
+}
+
 header nav #navbar2{
     display: flex;
     justify-content: space-around;
@@ -71,3 +113,35 @@ main section button a{
    text-decoration: none;
    color: black;
  }
+ 
+ @media(max-width: 1060px) {
+    #menu{
+        display: block; 
+    }
+
+    .head nav {
+        display: none;
+    }
+
+    .head .nav2 {
+        display: block;
+    }
+    
+    #bar:checked~.head .nav2 .nav3{
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #bar:checked~.head .nav2 .nav3 ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+ 
+    #bar:checked~.head .nav2 .nav3 ul li{
+        border-top: 1px solid rgb(0, 0, 0);
+        padding: 10px;
+    }
+}

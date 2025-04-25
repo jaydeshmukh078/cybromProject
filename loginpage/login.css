@@ -5,6 +5,50 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+header .nav2
+/* ,.head .nav2 section ul input */
+    {
+    display: none;
+}
+
+header .nav2 section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: large;
+    background-color: rgb(253, 216, 53);
+    width: 100%;
+}
+
+header .nav2 .nav3{
+    display: none;
+}
+
+header .nav2 section ul {
+    display: flex;
+    gap: 20px;
+}
+
+header .nav2 section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu{
+    display: none;
+}
+
+#menu{
+    position: absolute;
+    position: fixed;
+    font-size: large;
+    z-index: 99;
+    padding: 15px 10px 10px 15px;
+}
+
+
 header nav #navbar{
     display: flex;
     justify-content: space-around;
@@ -133,4 +177,46 @@ header nav #navbar ul li:hover{
 .mainpage .formm .buttonn button a{
     text-decoration: none;
     color: black;
+}
+
+
+@media(max-width: 1060px) {
+    #menu{
+        display: block; 
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .nav2 {
+        display: block;
+    }
+    
+    #bar:checked~header .nav2 .nav3{
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #bar:checked~header .nav2 .nav3 ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+ 
+    #bar:checked~header .nav2 .nav3 ul li{
+        border-top: 1px solid rgb(0, 0, 0);
+        padding: 10px;
+    }
+
+    main .mainpage{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main img{
+        width: 100%;
+    }
 }
