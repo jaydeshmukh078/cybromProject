@@ -273,7 +273,7 @@ footer {
 
 .foot2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .foot2 .footer6 ul li {

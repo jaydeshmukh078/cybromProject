@@ -5,13 +5,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.head .nav2
+header .nav2
 /* ,.head .nav2 section ul input */
     {
     display: none;
 }
 
-.head .nav2 section {
+header .nav2 section {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -21,16 +21,16 @@
     width: 100%;
 }
 
-.head .nav2 .nav3{
+header .nav2 .nav3{
     display: none;
 }
 
-.head .nav2 section ul {
+header .nav2 section ul {
     display: flex;
     gap: 20px;
 }
 
-.head .nav2 section ul li a {
+header .nav2 section ul li a {
     text-decoration: none;
     color: black;
 }
@@ -119,28 +119,28 @@ main section button a{
         display: block; 
     }
 
-    .head nav {
+    header nav {
         display: none;
     }
 
-    .head .nav2 {
+    header .nav2 {
         display: block;
     }
     
-    #bar:checked~.head .nav2 .nav3{
+    #bar:checked~header .nav2 .nav3{
         display: flex;
         background-color: white;
         justify-content: center;
         text-align: center;
     }
 
-    #bar:checked~.head .nav2 .nav3 ul{
+    #bar:checked~header .nav2 .nav3 ul{
         display: flex;
         flex-direction: column;
         width: 100%;
     }
  
-    #bar:checked~.head .nav2 .nav3 ul li{
+    #bar:checked~header .nav2 .nav3 ul li{
         border-top: 1px solid rgb(0, 0, 0);
         padding: 10px;
     }
