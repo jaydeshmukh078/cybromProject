@@ -13,16 +13,17 @@
 }
 
 .head .nav2
+
 /* ,.head .nav2 section ul input */
     {
     display: none;
 }
 
-#menu{
+#menu {
     display: none;
 }
 
-#menu{
+#menu {
     position: absolute;
     position: fixed;
     font-size: large;
@@ -40,7 +41,7 @@
     width: 100%;
 }
 
-.head .nav2 .nav3{
+.head .nav2 .nav3 {
     display: none;
 }
 
@@ -304,70 +305,69 @@ footer {
         padding-top: 60px;
     }
 
-    footer .footer5{
+    .head .nav2 #navbar2 {
         display: none;
     }
 
-    .head .nav2 #navbar2{
-        display: none;
-    }
-
-    #menu{
+    #menu {
         display: block;
     }
-    
-    #bar:checked~.head .nav2 .nav3{
+
+    #bar:checked~.head .nav2 .nav3 {
         display: flex;
         background-color: white;
         justify-content: center;
         text-align: center;
     }
 
-    #bar:checked~.head .nav2 .nav3 ul{
+    #bar:checked~.head .nav2 .nav3 ul {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
- 
-    #bar:checked~.head .nav2 .nav3 ul li{
+
+    #bar:checked~.head .nav2 .nav3 ul li {
         border-top: 1px solid rgb(0, 0, 0);
         padding: 10px;
     }
+
+    footer .foot {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+
+    footer .foot .footer2 {
+        padding: 10px 0px;
+    }
+
+    footer .foot .footer3 {
+        padding: 10px 0px;
+    }
+
+    footer .foot .footer4 {
+        padding: 10px 0px;
+    }
+
+    footer .foot .footer5 {
+        padding: 20px 0px;
+    }
+
+    footer .foot2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 30px 0px;
+    }
+
+    footer .foot2 .footer6 {
+        padding: 10px 0px;
+    }
+
+    footer .foot2 .footer7 {
+        padding: 10px 0px;
+    }
+
+    footer .foot2 .footer8 {
+        padding: 20px 0px;
+    }
 }
-
-@media(max-width: 450px) {
-    footer .foot{
-       display: flex;
-       flex-direction: column;
-       padding: 30px 0px;
-    }
-
-    footer .foot .footer2{
-       padding: 20px 0px;
-    }
-    footer .foot .footer3{
-       padding: 20px 0px;
-    }
-    footer .foot .footer4{
-       padding: 20px 0px;
-    }
-    footer .foot .footer5{
-       padding: 20px 0px;
-    }
-
-    footer .foot2{
-       display: flex;
-       flex-direction: column;
-       padding: 0px 0px 30px 0px;
-    }
-
-    footer .foot2 .footer6{
-        padding: 20px 0px;
-     }
-    footer .foot2 .footer7{
-        padding: 20px 0px;
-     }
-    footer .foot2 .footer8{
-        padding: 20px 0px;
-     }
-} 
