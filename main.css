@@ -106,11 +106,11 @@
     background-color: rgb(222, 218, 218);
 }
 
-.head #navbar2 ul p i {
+.head #navbar2 ul p a i{
     padding: 3px 10px 3px 3px;
 }
 
-.head #navbar2 ul p input {
+.head #navbar2 ul p a input {
     border: none;
     outline: none;
     background-color: rgb(222, 218, 218);
