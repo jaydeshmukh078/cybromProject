@@ -3,6 +3,7 @@
     padding: 0;
     scrollbar-width: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
